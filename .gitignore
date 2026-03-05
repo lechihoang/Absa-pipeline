@@ -24,10 +24,6 @@ build/
 frontend/node_modules/
 frontend/dist/
 
-# ── Models ────────────────────────────────────────────────────────────────────
-# model weights are tracked via Git LFS 
-models/vncorenlp/
-
 # ── Data ──────────────────────────────────────────────────────────────────────
 # data/crawled/
 # data/inferenced/
