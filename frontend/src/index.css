@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-bg text-primary font-sans antialiased;
+  }
+}
+
+@layer components {
+  .term-bar-track {
+    @apply h-1.5 bg-surface2 w-full overflow-hidden rounded-none;
+  }
+  .term-bar-fill {
+    @apply h-full transition-all duration-500 rounded-none;
+  }
+
+  .data-table {
+    @apply w-full text-sm border-collapse;
+  }
+  .data-table th {
+    @apply text-left px-4 py-2.5 font-mono text-[11px] text-secondary tracking-widest uppercase bg-surface2 border-b border-border sticky top-0;
+  }
+  .data-table td {
+    @apply px-4 py-3 border-b border-border align-top;
+  }
+  .data-table tr:last-child td {
+    @apply border-b-0;
+  }
+  .data-table tbody tr:hover td {
+    @apply bg-accent-light/40;
+  }
+}
