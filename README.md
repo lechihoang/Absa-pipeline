@@ -52,7 +52,7 @@ Model: `vinai/phobert-base-v2` (sequence classification, ABSA pair format: `<asp
 
 ## Dataset — UIT-ViSD4SA
 
-Both models are trained on **[UIT-ViSD4SA](https://huggingface.co/datasets/lchhong/uit-visd4sa)**, a Vietnamese sentiment dataset for aspect-based analysis of smartphone reviews.
+Both models are trained on **[UIT-ViSD4SA](https://github.com/kimkim00/UIT-ViSD4SA)**, a Vietnamese sentiment dataset for aspect-based analysis of smartphone reviews.
 
 Data format (JSONL):
 ```json
